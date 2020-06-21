@@ -4,5 +4,5 @@ jobs:
   include:
     - stage: "Good"                # naming the Tests stage
       name: "Good Tests"            # names the first Tests stage job
-      script: ./Pass
-    - stage: ./java//Fail
+      script: ./java/Pass
+    - stage: ./java/Fail
