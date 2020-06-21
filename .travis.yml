@@ -1,0 +1,8 @@
+language: java
+
+jobs:
+  include:
+    - stage: "Good"                # naming the Tests stage
+      name: "Good Tests"            # names the first Tests stage job
+      script: ./Good
+    - stage: ./Bad               
