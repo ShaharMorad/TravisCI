@@ -21,7 +21,7 @@ jobs:
       - name: Run tests with Maven
         run: mvn -B test --file pom.xml
       - name: Man Fuck This Shit
-        run: echo help me out, help me out, this is not a dance
+        run: ls
 
 # jobs:
 #   build:
