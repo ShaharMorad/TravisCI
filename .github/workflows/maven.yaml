@@ -21,7 +21,7 @@ jobs:
       - name: Run tests with Maven
         run: mvn -B test --file pom.xml
       - name: Pass ?
-          run: ./src/test/java/Pass
+        run: ./src/test/java/Pass
       - name: Fail ?
         run: ./src/test/java/Fail
 
