@@ -20,8 +20,10 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       - name: Run tests with Maven
         run: mvn -B test --file pom.xml
-      - name: Man Fuck This Shit
-        run: ls
+      - name: Pass ?
+          run: ./src/test/java/Pass
+      - name: Fail ?
+        run: ./src/test/java/Fail
 
 # jobs:
 #   build:
