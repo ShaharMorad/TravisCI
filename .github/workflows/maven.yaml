@@ -21,4 +21,4 @@ jobs:
       - name: Run --Fail test with Maven
         run: mvn -B test --Fail pom.xml
       - name: Run test --Pass with Maven
-          run: mvn -B test --Pass pom.xml
+        run: mvn -B test --Pass pom.xml
