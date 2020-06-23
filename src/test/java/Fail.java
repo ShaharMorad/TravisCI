@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class Fail {
 
     @Test
-    public void fail(){
+    public void failTest(){
         assertEquals(2,new Gay().returnOne());
     }
 }
