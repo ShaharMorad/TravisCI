@@ -4,6 +4,8 @@ public class Gay {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Gay().returnOne());
+        Gay gilad = new Gay();
+
+
     }
 }

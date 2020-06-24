@@ -1,0 +1,4 @@
+1 :: LoggerExample :: main :: Wed Jun 24 22:56:27 IDT 2020 :: [INFO] Logger action has started!
+1 :: LoggerExample :: log :: Wed Jun 24 22:56:27 IDT 2020 :: [SEVERE] java.lang.ArithmeticException: / by zero
+[LoggerExample.main(LoggerExample.java:45)]
+1 :: LoggerExample :: main :: Wed Jun 24 22:56:27 IDT 2020 :: [INFO] Logger action has stoped!
